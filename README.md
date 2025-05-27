@@ -1,6 +1,6 @@
-# Augmented Process Mining with Large Language Models (DSPy)
+# An Agentic LLM-based System for Exploratory Process Mining
 
-This repository contains the code for the bachelor thesis "Augmented Process Mining with Large Language Models as the Interface to Event Logs".
+This repository contains the code for the paper "An Agentic LLM-based System for Exploratory Process Mining".
 
 It implements a modular system using the **DSPy framework** where a Large Language Model (LM) orchestrates process analysis based on natural language questions about an event log. The core idea is an LM deciding between **enriching** the log (via Python/Pandas code generation) and **querying** it (via SQL/SQLite code generation).
 
@@ -34,8 +34,8 @@ The system uses RAG (ChromaDB) for column context and a Column Dependency Graph 
 
 1.  **Clone Repository:**
     ```bash
-    git clone https://github.com/timothyvinzent/Bachelor-Thesis--Augmented-Process-Mining.git
-    cd Bachelor-Thesis--Augmented-Process-Mining
+    git clone https://github.com/timothyvinzent/nl-exploratory-process-mining.git
+    cd nl-exploratory-process-mining
     ```
 2.  **Python Environment:**
     *   The project uses **Python 3.12.8**.
