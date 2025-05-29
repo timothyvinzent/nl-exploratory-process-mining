@@ -6,6 +6,19 @@ It implements a modular system using the **DSPy framework** where a Large Langua
 
 The system uses RAG (ChromaDB) for column context and a Column Dependency Graph to manage enrichment steps. It was benchmarked on the Road Traffic Fine Management dataset. For detailed methodology, findings, and analysis, please refer to the thesis document.
 
+## Code - Paper differences
+
+The following renamings have been made from Code -> Paper for better readability:
+* SQL Program -> SQL Query component
+* Python Program -> Column Enricher component
+* Class Answer in Column Desc module -> Describe component
+
+Architectural Variants:
+* Bootstrap\_fewshot\_1 -> SQL\_SR\_FS
+* Bootstrap Few-shot + Val -> CE\_FS\_Val
+* Zero-shot + Val -> CE\_ZS\_Val
+* Bootstrap Few-shot w/o Val -> CE\_FS
+
 ## Repository Structure
 
 *   **/benchmark**: Evaluation datasets derived from the Road Traffic Fine Management log (Process Mining Questions, Q&A pairs, Judge labels).
