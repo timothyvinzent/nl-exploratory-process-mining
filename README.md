@@ -1,6 +1,6 @@
-# An Agentic LLM-based System for Exploratory Process Mining
+# Evaluation of a System Architecture for LLM-based Exploratory Process Mining
 
-This repository contains the code for the paper "An Agentic LLM-based System for Exploratory Process Mining".
+This repository contains the code for the paper "Evaluation of a System Architecture for LLM-based Exploratory Process Mining".
 
 It implements a modular system using the **DSPy framework** where a Large Language Model (LM) orchestrates process analysis based on natural language questions about an event log. The core idea is an LM deciding between **enriching** the log (via Python/Pandas code generation) and **querying** it (via SQL/SQLite code generation).
 
